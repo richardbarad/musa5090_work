@@ -1,0 +1,8 @@
+csvsql `
+  --db "postgresql://postgres:Chiesaditotti10@localhost:5432/week04_db" `
+  --insert `
+  --overwrite `
+  --create-if-not-exists `
+  --db-schema "septa" `
+  --tables "bus_stops" `
+  "C:\Users\richa\OneDrive\Documents\School\UPENN\Spring_2023\CloudComputing\Week4_Exercise\gtfs_public\google_bus\stops.txt"
